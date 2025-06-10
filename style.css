@@ -1,0 +1,90 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav div ul {
+    display: flex;
+    list-style: none;
+
+}
+
+li {
+    margin: 14px 25px;
+    color: blanchedalmond;
+
+}
+
+nav div:first-child {
+    font-size: 50px;
+    color: wheat;
+    margin: 10px;
+}
+
+header {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+ a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+h1:hover{
+    color: rgb(149, 46, 130);
+    text-decoration: underline;
+}
+main {
+    display: flex;
+    background-color: blanchedalmond;
+
+}
+
+section:first-child {
+    margin: 100px 30px;
+
+}
+
+section p {
+    font-size: 20px;
+    margin: 0px 0px;
+}
+
+section h1 {
+    font-size: xx-large;
+    margin: 40px 30px;
+}
+
+img {
+    border-radius: 60%;
+}
+
+td,
+th {
+    border: 3px solid black;
+    text-align: center;
+    border-spacing: 30px;
+
+}
+
+table {
+    width: 100%;
+    background-color: rgb(239, 233, 224);
+}
+
+footer {
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+ .icons:hover   {
+   color: yellowgreen;
+    text-decoration: underline;
+}
+i {
+    margin: 2px;
+    color: white;
+    size: 30px;
+}
